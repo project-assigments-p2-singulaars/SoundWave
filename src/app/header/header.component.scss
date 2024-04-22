@@ -1,0 +1,48 @@
+
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns:  11 vw repeat(3, 1fr);
+    grid-auto-flow: column;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 0%;
+    padding-top: 5%;
+}
+
+li{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    align-content: center;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.7rem;
+}
+#soundwavetext a{
+    font-size: 0.9rem;
+}
+#soundwavelogo img{
+    width:11vw;
+}
+ul :first-child{
+    justify-self: flex-start;
+}
+
+ul :nth-child(2){
+    justify-self: flex-start;
+}
+
+ul :nth-child(3){
+    justify-self: flex-end;
+}
+img{
+    overflow: hidden;
+}
+
+ul li a:hover{
+    color: grey;
+
+}
