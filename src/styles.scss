@@ -3,5 +3,26 @@
 :root{
     font-family: "Poppins" , sans-serif;
     font-size: 1.2rem;
+    color: whitesmoke;
     background-color: #2F303A;    ;
 }
+
+button{
+    background-color: #1762A7;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: whitesmoke;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 0.8em 1.2em;
+}
+
+button:hover{
+    background-color: #2180d8;
+}
+
+button:focus{
+    background-color: #2796ff;
+}
+

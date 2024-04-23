@@ -1,0 +1,23 @@
+footer{
+    background-color: lightsalmon;
+    border: 4px solid white;
+}
+ul{
+    list-style-type:none;
+    display: grid;
+    grid-auto-flow: column;
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+
+#facebooklist img{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+li{
+    font-size: 0.7rem;
+    font-weight: bold;
+}

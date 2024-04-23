@@ -1,0 +1,20 @@
+h1{
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#feelsection{
+    height: 80vh;
+    width:80vw;
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 15vh 10vh 5vh;
+    place-content: center;
+    padding: 0 7vw;
+    align-items: center;
+}
+
+#feelsection :nth-child(3){
+    justify-self:flex-start;
+}
+
