@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+
 :root{
     font-family: "Poppins" , sans-serif;
     font-size: 1.2rem;
     color: whitesmoke;
     background-color: #2F303A;    ;
 }
-
+ul{
+    list-style-type: none;
+}
 button{
     background-color: #1762A7;
     font-family: "Poppins", sans-serif;

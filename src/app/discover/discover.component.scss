@@ -1,0 +1,53 @@
+
+#discoverSection{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+h1{
+    font-size: 10vw;
+    font-weight:450;
+    padding:2%;
+    margin: 0%;
+}
+
+.discoverIconsList{
+    background-color: #202027;
+    width: 33%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+    padding:2%;
+}
+.discoverIconsList p {
+    margin: 4%;
+    font-size:3vw;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+#discoverSection ul{
+    display: flex;
+    gap: 4%;
+    justify-items: center;
+    margin: 0%;
+    padding: 5%;
+    width: 70%;
+    height: 14%;
+}
+.imgDiscover{
+    width: 7vw;
+    height: auto;
+    padding:6%
+}
+#joinText{
+    font-size: 3.5vw;
+    padding-left: 2%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+#coverImg{
+    width:12em;
+}
