@@ -1,2 +1,24 @@
-<p>join works!</p>
+<section id="joinSection">
+    <h1>Join the <br><span id="fun">fun.</span>
+    </h1>
+    <form action="https://httpbin.org/post" method="post">
+        <ul>
+            <li class="formList">
+                <label for="name">Name:</label>
+                <input type="text" name="user_name" id="name" placeholder="Enter your Full name" required aria-label="Full name">
+            </li>
+            <li class="formList">
+                <label for="email">Email:</label>
+                <input type="email" name="user_email" id="email"placeholder="Enter your email" required aria-label="Email address">
+            </li>
+            <li class="formList">
+                <label for="password">Password:</label>
+                <input type="password" name="user_password" id="password"placeholder="Enter your password" required minlength="8" aria-label="Password">
+            </li>
+            <li class="formList" id="joinSubmit">
+                <input type="submit" value="Join Now">
+            </li>
+        </ul>
+    </form>
+</section>
 <app-footer></app-footer>
