@@ -1,8 +1,10 @@
 <header>
+    <a id = "soundlink" routerLinkActive="active" [routerLink]= "['/feel']">
+        <img id="soundwavelogo" src="../../assets/logo.png" alt="Soundwave logo">
+        <p id="soundwavetext">Soundwave</p>
+    </a>
     <nav>
-        <ul>
-            <li id="soundwavelogo"><img src="../../assets/logo.png" alt="Soundwave logo"></li>
-            <li id="soundwavetext"><a routerLinkActive="active" [routerLink]= "['/feel']">Soundwave</a></li>
+        <ul id = "discovAndJoinlinks">
             <li><a routerLinkActive="active" [routerLink]= "['/discover']">Discover</a></li>
             <li><a routerLinkActive="active" [routerLink]= "['/join']">Join</a></li>
         </ul>

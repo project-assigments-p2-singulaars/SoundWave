@@ -1,52 +1,78 @@
 header{
     width: 100%;
     height: 10%;
-    padding: 3vh 3vh 5vw 0;
-}
-ul{
-    display: grid;
-    grid-template-columns:  11 vw repeat(3, 1fr);
-    grid-auto-flow: column;
-    justify-content: space-between;
-    justify-items: center;
-    margin: 0%;
-    padding: 5%;
+    padding: 3vh 3vh 2vw 0;
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-content: space-evenly;
+    text-align:center;
+    gap: 1%;
 }
 
-li{
-    display: grid;
-    grid-template-columns:  1fr 1fr;
-    align-content: center;
-    text-align: center;
+@media (min-width: 900px){
+    header{
+        justify-content: space-around;
+        gap: 15%;
+    }
+    #soundlink p{
+        font-size: 2.5vw;
+    }
+    #soundlink img{
+        width:5vw;
+    }
+    #discovAndJoinlinks {
+        padding-top: 5%;
+    }
+    #discovAndJoinlinks a{
+        font-size: 2vw;
+    }
 }
-ul li a{
+nav{
+    display: flex;
+    place-content: center;
+    width: 30%;
+}
+#soundlink{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 7%;
+}
+#discovAndJoinlinks{
+    display: flex;
+    padding-left:5%;
+    gap: 14%;
+    margin: 0%;
+    padding-bottom: 2%;
+    padding-right: 30%;
+    place-items: center;
+
+}
+#discovAndJoinlinks a:hover{
+    color: grey;
+}
+
+#soundlink p:hover{
+    color: grey;
+}
+
+a{
     text-decoration: none;
     color: whitesmoke;
-    font-size: 3vw;
+    font-size: 4vw;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
 }
-#soundwavetext a{
+
+
+#soundwavelogo{
+    width:11vw;
+}
+
+#soundwavetext{
     font-size: 5vw;
 }
-#soundwavelogo img{
-    width:11vw;
 
-}
-ul :first-child{
-    justify-self: flex-start;
-}
 
-ul :nth-child(2){
-    justify-self: flex-start;
-}
 
-ul :nth-child(3){
-    justify-self: flex-end;
-}
-img{
-    overflow: hidden;
-}
-
-ul li a:hover{
-    color: grey;
-
-}
