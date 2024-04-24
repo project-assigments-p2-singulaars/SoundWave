@@ -2,7 +2,62 @@ h1{
     font-size: 10vw;
     font-weight: normal;
 }
-
+#click{
+    display:none;
+}
+@media(min-width:900px){
+    :host{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 40vw 40vw;
+        place-items:center;
+        justify-content: center;
+        height:80%;
+        gap: 0%;
+    }
+    :host first-child{
+        justify-items: flex-end;
+    }
+    :host #feelsection{
+        height: 60%;
+        width: 40%;
+        display: grid;
+        grid-template-columns: 35vw;
+        grid-template-rows: 8vh 7vh 4vh;
+        align-items: center;
+        justify-items: flex-start;
+        padding: 0 7vw;
+        gap: 5%;      
+    }
+    :host #girl{
+        display: block;
+        width: 27vw;
+    }
+    h1{
+        font-size: 3vw;
+        margin: 0%;
+        justify-self:flex-start;
+    }
+    #music{
+        display:none;
+    }
+    #click{
+        display:inline;
+    }
+    :host #feelsection p{
+        font-size:1.5vw;
+        
+    }
+    :host button{
+        font-size: 1vw;
+    }
+}
+#girl{
+    display: none;
+    width: 15vw;
+    height: auto;
+    align-self:flex-end;
+}
 #feelsection p{
     font-size:5vw;
 }
@@ -11,11 +66,11 @@ h1{
     width:80vw;
     display: grid;
     grid-template-columns: 80vw;
-    grid-template-rows: 15vh 10vh 5vh;
+    grid-template-rows: 8vh 6vh 4vh;
     place-content: center;
     padding: 0 7vw;
     align-items: center;
-    gap: 2%;
+    gap: 7%;
 }
 
 #feelsection :nth-child(3){
